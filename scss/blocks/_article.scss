@@ -1,0 +1,74 @@
+.article {
+  width: 100%;
+  box-sizing: border-box;
+  
+  &--doings-width {
+    flex-basis: 31.6%;
+  }
+  
+  &__heading {
+    font-family: 'Calluna-Regular';
+    font-size: 28px;
+    font-weight: 300;
+    padding: 10px 0 6px;
+    
+    &--smaller {
+      font-size: 21px;
+      font-weight: 100;
+      padding: 18px 0 5px 35px;
+    }
+    
+    &--main-padding {
+      padding: 8px 0 0 0;
+    }
+    
+    &--smaller2 {
+      font-size: 21px;
+      font-weight: 100;
+      margin-top: -1px;
+    }
+  }
+  
+  &__heading--accent {
+    color: $allottedColour;
+  }
+  
+  &__text {
+    font-family: 'Garamond-Regular';
+    font-size: 14px;
+    line-height: 21px;
+    
+    &--main-padding {
+      padding: 10px 10px 11px 2px;
+    }
+    
+    &--doings-padding {
+      padding: 10px 0;
+    }
+    
+    &--about-padding {
+      padding: 6px 0 15px;
+    }
+  
+    &--contact-padding {
+      padding: 12px 0 3px 0;
+    }
+  }
+  
+  &__capital-letter {
+    padding: 9px 7px 5px 0;
+    font-size: 45px;
+    float: left;
+  }
+  
+  &__icon {
+    float: left;
+    width: auto;
+    height: auto;
+    padding: 20px 10px 10px 0;
+    
+    &--last {
+      padding-right: 20px;
+    }
+  }
+}

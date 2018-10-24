@@ -1,0 +1,21 @@
+.horizontal-line {
+  padding: 0;
+  
+  &--bold {
+    border: 3px solid black;
+    margin: 4px 0 0 -1px;
+  }
+  
+  &--thin {
+    margin: 4px 0 0 -1px;
+    border: 0.5px solid black;
+  }
+  
+  &--bottom-space {
+    margin-bottom: 80px;
+  }
+  
+  &--top-space {
+    margin-top: 13px;
+  }
+}

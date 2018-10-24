@@ -1,0 +1,23 @@
+.footer-article {
+  
+  &__heading {
+    font-weight: 100;
+    font-size: 28px;
+    padding: 16px 2px 12px;
+  }
+  
+  &__text {
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: 1px;
+  }
+  
+  &__icon {
+    padding: 23px 12px 0 0;
+  }
+  
+  &__link {
+    color: $allottedColour;
+    text-decoration: none;
+  }
+}

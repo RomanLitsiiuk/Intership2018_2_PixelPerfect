@@ -1,0 +1,74 @@
+.slider {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 0 10px 10px;
+  
+  &__body {
+    background-color: $sliderBackground;
+    background-clip: content-box;
+    padding: 4px;
+    border: 1px solid $sliderBorderColor;
+    box-shadow: 0 2px 5px 1px rgba(0,0,0, .2);
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  &__body-number {
+    font-size: 64px;
+    font-weight: 100;
+    color: $headerTextColor;
+    font-family: 'Times New Roman';
+    text-align: center;
+    padding: 87px 0 42px;
+  }
+  
+  &__body-description {
+    font-family: 'Garamond-Regular';
+    background-color: $sliderButtonBackground;
+    color: $headerTextColor;
+    font-size: 14px;
+    padding: 11px 15px 12px;
+  }
+  
+  &__body-button {
+    font-family: 'Garamond-Regular';
+    color: $headerTextColor;
+    background-color: $sliderButtonBackground;
+    padding: 7px 10px;
+    position: absolute;
+    font-size: 14px;
+    
+    &:hover {
+      cursor: pointer;
+      background-color: lighten($sliderButtonBackground, 20%);
+    }
+    
+    &--left {
+      top: 44%;
+    }
+    
+    &--right {
+      right: 4px;
+      top: 44%;
+    }
+  }
+  
+  &__nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  &__nav-point {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid $sliderBorderColor;
+    margin: 0 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0, .2) inset;
+    
+    &--checked {
+      background-color: $sliderBorderColor;
+    }
+  }
+}

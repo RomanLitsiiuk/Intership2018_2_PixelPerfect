@@ -1,0 +1,58 @@
+@import "reset/_reset";
+@import "fonts/_fonts";
+@import "variables/_variables";
+@import "functions/_functions";
+@import "blocks/_header";
+@import "blocks/_navigation";
+@import "blocks/_central-section";
+@import "blocks/_article";
+@import "blocks/_slider";
+@import "blocks/_main-section";
+@import "blocks/_colored-text-tab";
+@import "blocks/_aside";
+@import "blocks/_contact-section";
+@import "blocks/_form";
+@import "blocks/_contacts";
+@import "blocks/_footer";
+@import "blocks/_footer-article";
+@import "blocks/_horizontal-line";
+
+html,
+body {
+  height: 100%;
+}
+
+.main-markup {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  
+  &__content {
+    flex: 1 0 auto;
+  }
+  
+  &__footer {
+    flex: 0 0 auto;
+  }
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+  
+  &__padding {
+    padding: 20px 20px;
+  }
+}
+
+.clear::after,
+.clear::before {
+  content: '';
+  display: table;
+}
+
+.clear::after {
+  clear: both;
+}

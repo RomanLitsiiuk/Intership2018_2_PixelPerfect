@@ -1,0 +1,21 @@
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Garamond-Regular';
+  padding: 15px 0 33px;
+  
+  &__heading {
+    font-size: 45px;
+    font-family: Garamond-Regular;
+    font-weight: 100;
+    padding: 8px 0 18px;
+  }
+  
+  &__form-wrap {
+    flex-basis: 65.9%;
+  }
+  
+  &__information-wrap {
+    flex-basis: 31.7%;
+  }
+}

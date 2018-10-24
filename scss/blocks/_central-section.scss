@@ -1,0 +1,37 @@
+.central-section {
+  padding-bottom: 55px;
+  
+  &__heading {
+    padding: 40px 0 0;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: 'Calluna-Regular';
+  }
+  
+  &__welcome-content-wrap {
+    display: flex;
+    border-bottom: 1px dotted #ccc;
+    padding: 6px 0 0;
+    box-sizing: border-box;
+  }
+  
+  &__article-wrap {
+    flex: 1 0 50%;
+  }
+  
+  &__slider-wrap {
+    flex: 1 0 50%;
+  }
+  
+  &__doings-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+  }
+}
+
+
+
+
+
+

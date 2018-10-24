@@ -1,0 +1,43 @@
+.form {
+  padding: 6px 0;
+  
+  &__input-block {
+    display: flex;
+    padding: 17px 0;
+  }
+  
+  &__label {
+    font-size: 18px;
+    width: 160px;
+    font-weight: 600;
+    margin-top: -3px;
+    letter-spacing: 1px;
+  }
+  
+  &__input {
+    border: 1px solid $sliderBorderColor;
+    width: 100%;
+    padding: 6px;
+    border-radius: 3px;
+    
+    &--textarea {
+      height: 195px;
+    }
+  }
+  
+  &__button {
+    border: 1px solid $buttonBorderColor;
+    background-color: $formButtonBackground;
+    padding: 7px 15px;
+    width: 72px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0, .4) inset;
+    font-family: Garamond-Regular;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .5px;
+    float: right;
+    margin: 13px 0 6px 17px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,13 @@
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 6px;
+  
+  &__main-wrap {
+    flex-basis: 65.8%;
+  }
+  
+  &__aside-wrap {
+    flex-basis: 31.7%;
+  }
+}

@@ -1,0 +1,7 @@
+@each $element, $color in $textTabsColor {
+  .#{$element} {
+    &::before {
+      background-color: ($color);
+    }
+  }
+}

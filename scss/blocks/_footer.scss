@@ -1,0 +1,17 @@
+.footer {
+  background-color: $buttonBorderColor;
+  color: $headerTextColor;
+  font-family: 'Garamond-Regular';
+  padding-bottom: 150px;
+  margin-top: 57px;
+ 
+  
+  &__content-markup {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  &__content-block {
+    flex-basis: 31.8%;
+  }
+}
